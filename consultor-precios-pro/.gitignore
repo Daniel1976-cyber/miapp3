@@ -1,0 +1,141 @@
+# Consultor de Precios Pro - .gitignore
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor de código
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencias
+node_modules/
+bower_components/
+
+# Cobertura de pruebas
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Archivos de datos locales (comentado para que se suba el archivo de ejemplo)
+# data/productos.xlsx
+
+# Archivos de build
+dist/
+build/
+out/
+
+# Archivos temporales
+tmp/
+temp/
+.tmp/
+
+# Archivos de configuración local
+config.local.json
+settings.local.json
+
+# Archivos de iconos generados automáticamente
+icons/generated/
+*.generated.*
+
+# Service Worker cache (se regenera automáticamente)
+sw-cache/
+
+# Archivos de base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de backup
+*.backup
+*.bak
+*.orig
+
+# Archivos de usuario específicos
+personal-data.xlsx
+mi-catalogo.xlsx
+productos-personalizados.xlsx
+
+# Archivos de desarrollo
+dev/
+development/
+test-data/
+sample-data/
