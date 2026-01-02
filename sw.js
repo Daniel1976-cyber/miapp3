@@ -3,7 +3,7 @@ const urlsToCache = [
     '/',
     '/static/js/app.js',
     '/static/css/style.css',
-    '/data/productos_precios.xlsx'
+    '/data/productos.xlsx'
 ];
 
 self.addEventListener('install', event => {
